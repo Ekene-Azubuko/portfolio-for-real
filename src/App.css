@@ -273,7 +273,7 @@ img {
 }
 .project-section .timeline .project-card-image img {
   border-radius: 10px 10px 0 0;
-  height: fit-content;
+  height: 100%;
   transition: .5ms ease;
   width: 100%;
 }
