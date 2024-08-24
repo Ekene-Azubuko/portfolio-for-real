@@ -154,7 +154,7 @@ img {
   margin: 0 10%;
   padding: 0 10%;
   width: 80%;
-  transition: height .3s ease;
+  /* transition: height .3s ease; */
 }
 .accordion-and-bio .experience-container .accordion-container .expanded{
   height: 100%;

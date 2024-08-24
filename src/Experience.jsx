@@ -4,7 +4,7 @@ const Experience = ({position, period, company, roles, isCollapsed}) => {
           <div className="wrap ">
             <h2>{position}</h2>
             <h2>{period}</h2>
-            <i class="fa-solid fa-plus"></i>
+            <i className={`fa-solid ${ isCollapsed? "fa-minus" : "fa-plus"}`}></i>
           </div>
           <div className={`dropdown ${ isCollapsed ? "expanded" : ""}`}>
             <h3>{company}</h3>
