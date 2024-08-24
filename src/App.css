@@ -236,7 +236,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 2rem 2.2rem;
+  margin: 2rem auto;
   max-width: 280px;
   min-width: 280px;
   padding-bottom: 2rem;
