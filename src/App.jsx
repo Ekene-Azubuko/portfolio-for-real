@@ -41,7 +41,7 @@ function App() {
           <a href="#contact" className="cta btn btn-outline">Hire me</a>
         </div>
         <div className="hero-image">
-          <img src="public/static/images/bitmoji.jpg"></img>
+          <img src="static/images/bitmoji.jpg"></img>
         </div>
       </section>
       <section className="about-me" id="about">
@@ -81,13 +81,13 @@ function App() {
           <Project
             name="AFII Website"
             description="I was done with my sidequests and decide to learn more web devlopment stuff from CodePath. I built this website for some friends using ReactJS and a PostgreSQL database. My favorite features on this project are the quiz which filters the database, a search suggestion system with realtime filtering and the react routing used on some pages." 
-            image="public/static/images/afii_logo.png"
+            image="static/images/afii_logo.png"
           />
           <Project
             name="Ping Pong Game"
             description="Working with python to build the ML model was fun so I wanted to try build other things with python. This time I built a ping pong game using the turtle module. This game was built to be played for long periods without getting bored. It is played using a terminal interface."
             link="https://github.com/Ekene-Azubuko/Ping-pong"
-            image="public/static/images/pong.jpg"
+            image="static/images/pong.jpg"
           />
           <div class="timeline-middle">
               <div class="timeline-circle"></div>
@@ -101,13 +101,13 @@ function App() {
             name="ML Sentiment Analysis"
             description="In light of the AI boom, I decided to build a sentiment analysis model using machine learning. The model was built using an Amazon dataset containing a million reviews on groceries and gourmet foods. It was built using the sklearn python library. It is accessed using a terminal interface. Getting this model to work to some degree of accuracy was very satisfying. It was also the first major project I built using python."
             link="https://github.com/Ekene-Azubuko/ML-sentiment-Analysis"
-            image="public/static/images/sentiment.jpg"
+            image="static/images/sentiment.jpg"
           />
           <Project
             name="Memory Mosaic"
             description="Very similar to safelock, this is a flashcard app that allows user authentication through the passport. It also saves notes on a Mongo database so users can review them anytime."
             link="https://memory-mosaic-dynamic.vercel.app/"
-            image="public/static/images/puzzle.png"
+            image="static/images/puzzle.png"
           />
            <div class="timeline-middle">
                <div class="timeline-circle"></div>
@@ -121,13 +121,13 @@ function App() {
             name="Safelock"
             description="Decided to up my backend game by building an authentication system. I used NodeJS and Express to build the backend and MongoDB as the database. I also used Passport for authentication and bcrypt for password hashing."
             link="https://safelock-9bc2ec112a2a.herokuapp.com/"
-            image="public/static/images/padlock.jpg"
+            image="static/images/padlock.jpg"
           />
           <Project
             name="Todo List"
             description="I built this when I started learning Embedded Javascript (EJS) and NodeJS. It is also one of my first projects to have databse implementation, MongoDB. This web app can be used to store itineraries on any given day. Each to-do activity can be deleted with a single click."
             link="https://dry-river-61359-786f7a335101.herokuapp.com/"
-            image="public/static/images/todolist.png"
+            image="static/images/todolist.png"
           />
           <div class="timeline-middle">
               <div class="timeline-circle"></div>
