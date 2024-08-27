@@ -82,6 +82,7 @@ function App() {
             name="AFII Website"
             description="I was done with my sidequests and decide to learn more web devlopment stuff from CodePath. I built this website for some friends using ReactJS and a PostgreSQL database. My favorite features on this project are the quiz which filters the database, a search suggestion system with realtime filtering and the react routing used on some pages." 
             image="static/images/afii_logo.png"
+            link="https://afii.us/"
           />
           <Project
             name="Ping Pong Game"
