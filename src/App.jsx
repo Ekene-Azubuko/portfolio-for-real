@@ -183,7 +183,7 @@ function App() {
       <section className="contact-section" id="contact">
         <div className="contact-text">
           <h1>Contact</h1>
-          <p>Send me a message or contact me using the links and form below</p>
+          <p>Send me a message or contact me using the links below</p>
         </div>
         <div className="contacts">
           <div className="social-container">
