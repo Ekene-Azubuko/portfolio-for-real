@@ -38,7 +38,7 @@ function App() {
           <h1>I'm Ekene Azubuko</h1>
           <h2>I am into Full Stack Web Development</h2>
           <p>I make websites and write a lot of code. Some run while some don't but you get the idea.</p>
-          <a href="#contact" className="cta btn btn-outline">Hire me</a>
+          <a href="#contact" className="cta btn btn-outline">Contact me</a>
         </div>
         <div className="hero-image">
           <img src="static/images/bitmoji.jpg"></img>
@@ -166,7 +166,7 @@ function App() {
           />
           <Project
             name="Smilebook"
-            description="My very first project. I wrote this when I was learning web dev from w3schools and writing html code in wordPad. I'd just found out I could host static web pages on github so I copy and pasted my code in a repo and deployed the page. Watching it go live was so cool. "
+            description="My very first project. I'd just found out I could host static web pages on GitHub so I copied and pasted my code in a repo and deployed the page. Watching it go live was so cool. "
             link="https://ekene-azubuko.github.io/smilebook/"
             image="https://i.pinimg.com/236x/03/70/a3/0370a33c1b097d586e890b5d22a53ee8.jpg"
           />
