@@ -1,4 +1,3 @@
-import "./App.css";
 const Nav = () => {
     return(
         <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark">
