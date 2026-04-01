@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Analytics } from "@vercel/analytics/react"
 import Nav from './components/Nav'
 import Project from './components/Project'
 import Footer from './components/Footer'
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <div className="App">
+      <Analytics/>
       <Nav />
       <section className="container hero-section" id="home">
         <div className="text-box">
