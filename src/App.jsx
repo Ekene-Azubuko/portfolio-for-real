@@ -28,12 +28,12 @@ function App() {
       <section className="container hero-section" id="home">
         <div className="text-box">
           <p>Hi there,</p>
-          <h1>I'm Ekene Azubuko</h1>
+          <h1>I&apos;m Ekene Azubuko</h1>
           <h2>I am into Full Stack Web Development</h2>
-          <p>I make websites and write a lot of code. Some run while some don't but you get the idea.</p>
+          <p>I make websites and write a lot of code. Some run while some don&apos;t but you get the idea.</p>
           <div className="hero-actions">
             <a href="#contact" className="cta btn btn-outline">Contact me</a>
-            <a href="https://drive.google.com/file/d/12IzsR-CZOmyz32Lw4fDTl45yVQMB03Gj/view?usp=drive_link" className="cta btn btn-outline" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href="https://docs.google.com/document/d/1SmiKBMfYqN2ap9OUsF2PBrx6Z1U3kO7MPiWyPPrR4HQ/edit?usp=sharing">Resume</a>
           </div>
         </div>
         <div className="hero-image">

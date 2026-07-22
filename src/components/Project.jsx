@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 const Project = ({ name, description, liveUrl, githubUrl, technologies }) => {
   return (
     <article className="project-card">
@@ -43,6 +45,20 @@ const Project = ({ name, description, liveUrl, githubUrl, technologies }) => {
       </div>
     </article>
   )
+}
+
+Project.propTypes = {
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  liveUrl: PropTypes.string,
+  githubUrl: PropTypes.string,
+  technologies: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      logo: PropTypes.string.isRequired,
+      invert: PropTypes.bool
+    })
+  ).isRequired
 }
 
 export default Project;

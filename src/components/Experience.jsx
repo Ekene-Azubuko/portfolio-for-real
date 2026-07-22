@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import Accordion from '@mui/material/Accordion'
 import AccordionDetails from '@mui/material/AccordionDetails'
 import AccordionSummary from '@mui/material/AccordionSummary'
@@ -70,6 +71,15 @@ const Experience = ({ position, period, company, roles, isExpanded, onChange }) 
       </AccordionDetails>
     </Accordion>
   )
+}
+
+Experience.propTypes = {
+  position: PropTypes.string.isRequired,
+  period: PropTypes.string.isRequired,
+  company: PropTypes.string.isRequired,
+  roles: PropTypes.arrayOf(PropTypes.string).isRequired,
+  isExpanded: PropTypes.bool.isRequired,
+  onChange: PropTypes.func.isRequired
 }
 
 export default Experience;
