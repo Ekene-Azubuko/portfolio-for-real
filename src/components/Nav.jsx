@@ -17,7 +17,7 @@ const Nav = () => {
                   <a className="nav-link" href="#projects">PROJECTS</a>
                 </li>
                 <li className="nav-item mx-md-5">
-                  <a className="nav-link" href="#contact">HIRE ME</a>
+                  <a className="nav-link" href="#contact">CONTACT</a>
                 </li>
               </ul>
             </div>

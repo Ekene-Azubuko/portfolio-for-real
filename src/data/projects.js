@@ -31,7 +31,7 @@ const Projects = [
   name: "VidIntel",
   description: "An AI-powered video intelligence tool built on Cloudflare's developer platform, allowing users to ask natural language questions about any YouTube video and get grounded, context-aware answers. Fetches and splits transcripts into overlapping chunks, embeds them via Cloudflare Workers AI, and stores vectors in Cloudflare Vectorize for semantic retrieval. A Cloudflare Workers backend orchestrates Workers AI for embeddings and Llama 3.3 70B inference, with KV caching keeping responses snappy across repeated queries.",
   liveUrl: "https://solitary-bush-9035.azubuko.workers.dev/",
-  githubUrl: null,
+  githubUrl: "https://github.com/Ekene-Azubuko/cf_ai_vidintel",
   technologies: ["typescript", "cloudflare", "llama"]
 },
   {

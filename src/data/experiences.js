@@ -20,13 +20,13 @@ const Experiences = [
     ]
   },
   {
-    position: "Radio Frequency Intern",
-    period: "April 2024 - August 2024",
-    company: "UL solutions",
+    position: "Test Engineering Intern",
+    period: "May 2026 - July 2026",
+    company: "UL Solutions • Fremont, CA",
     roles: [
-      "Performed electromagnetic compatibility (EMC) tests on devices using an EMI test receiver to detect electromagnetic emissions and ensure all emissions conform to US standards.",
-      "RanPython commands and scripts to configure antennas of test devices to transmit at specific frequencies, bands, and power. I then used the EMI test receiver to collect data, analyze results, and generate reports.",
-      "Conducted regular checks on test equipment by utilizing measurements obtained from horn and hybrid antennas and comparing these measurements to a baseline, which verifies the calibration, integrity, and performance of test equipment."
+      "Wrote Python scripts to put device samples through specific test conditions and automatically check the output against pass/fail thresholds.",
+      "Recorded and explained test results, completing detailed test reports for engineering staff to support clear, consistent documentation.",
+      "Communicated with customers during setup and operation to ensure proper evaluation, while following defined test plans and datasheets and building working knowledge of test methods, instrumentation, and systems."
     ]
   },
 ]
